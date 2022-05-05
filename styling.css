@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Hind:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+}
+.look
+{
+	height: auto;
+	width: 100%;
+	background: url(background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0% 5% 0% 5%;
+	border-bottom-right-radius: 25%;
+	overflow: hidden;
+}
+.navbar
+{
+	position: fixed;
+	top: 10px;
+	left: 0px;
+	right: 0px;
+	background: rgba(0 0 0/.5);
+	box-sizing: border-box;
+	z-index: 2;
+}
+.navbar-brand
+{
+	color: #fff;
+	font-size: 46px;
+  	font-family: 'Great Vibes', cursive;
+  	font-weight: bold;
+}
+.navbar-brand:hover
+{
+	color: #fff;
+}
+.nav-item
+{
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	padding-left: 30px;
+}
+.nav-item .nav-link
+{
+	text-decoration: none;
+	color: #f7f1f8;
+}
+.nav-item .active
+{
+	border-bottom: 2px solid #f7f1f8;
+}
+.nav-item .nav-link:hover
+{
+	color: #c6c1c7;
+}
+.face
+{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.face li ion-icon
+{
+	font-size: 16px;
+	color: #fff;
+}
+.face li:first-child
+{
+	background: #3b5998;
+	width: 30px;
+	height: 30px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	cursor: pointer;
+}
+.face li:nth-child(2)
+{
+	background: #55acee;
+	width: 30px;
+	height: 30px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	margin-left: 5px;
+	cursor: pointer;
+}
+.face li:last-child
+{
+	background: #e53935;
+	width: 30px;
+	height: 30px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	margin-left: 5px;
+	cursor: pointer;
+}
+.late
+{
+	margin-top: 10%;
+	height: auto;
+	overflow: hidden;
+}
+.late img
+{
+	height: 65%;
+	position: absolute;
+	bottom: 0px;
+	top: 245px;
+	left: 700px;
+}
+.and
+{
+	box-sizing: border-box;
+	padding: 15% 10% 0% 0%;
+}
+.and h3
+{
+	font-size: 44px;
+	font-family: 'Hind', sans-serif;
+	font-weight: 700;
+	color: #fff;
+}
+.and p
+{
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	color: #f7f1f8;
+	margin-top: 2%;
+}
+p span
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+.and button
+{
+	width: 147px;
+	height: 47px;
+	border: 2px solid #f7f1f8;
+	background: transparent;
+	text-transform: capitalize;
+	font-size: 14px;
+	color: #fff;
+	font-family: "Open Sans", sans-serif;
+	border-radius: 25px;
+	margin-top: 5%;
+	transition: .2s;
+	margin-bottom: 90px;
+}
+.and button:hover
+{
+	background: #fff;
+	color: #000;
+}
+
+.well
+{
+	height: auto;
+	padding: 5% 0%;
+	text-align: center;
+}
+.well h3
+{
+	font-size: 18px;
+    color: #7b7b7b;
+    letter-spacing: 2px;
+    font-family: "Hind", sans-serif;
+}
+h3 span
+{
+	font-size: 38px;
+	color: #44449b;
+	font-weight: 700;
+	display: inline-block;
+	margin-top: 2%;
+}
+.well p
+{
+	padding: 0px 155px;
+	font-size: 15px;
+    letter-spacing: 1px;    
+    line-height: 30px;
+	color: #999;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5%;
+}

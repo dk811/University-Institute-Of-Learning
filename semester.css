@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Hind:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+}
+.navbar
+{
+	/*position: fixed;
+	top: 10px;
+	left: 0px;
+	right: 0px;*/
+	/*background: rgba(0 0 0/.5);*/
+	box-sizing: border-box;
+	z-index: 2;
+	background: #008080;
+}
+.navbar-brand
+{
+	color: #fff;
+	font-size: 46px;
+  	font-family: "Open Sans", sans-serif;
+  	font-weight: bold;
+}
+.navbar-brand img
+{
+	width: 100px;
+	height: 100px;
+}
+.navbar-brand:hover
+{
+	color: #fff;
+}
+.nav-item
+{
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	padding-left: 30px;
+}
+.nav-item .nav-link
+{
+	text-decoration: none;
+	color: #f7f1f8;
+}
+.nav-item .active
+{
+	border-bottom: 2px solid #f7f1f8;
+}
+.nav-item .nav-link:hover
+{
+	color: #c6c1c7;
+}
+.face
+{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.face li ion-icon
+{
+	font-size: 16px;
+	color: #fff;
+}
+.face li:first-child
+{
+	background: #3b5998;
+	width: 30px;
+	height: 30px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	cursor: pointer;
+}
+.face li:nth-child(2)
+{
+	background: #55acee;
+	width: 30px;
+	height: 30px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	margin-left: 5px;
+	cursor: pointer;
+}
+.face li:last-child
+{
+	background: #e53935;
+	width: 30px;
+	height: 30px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	margin-left: 5px;
+	cursor: pointer;
+}	
+.sem
+{
+	width: 100%;
+	height: auto;
+	padding: 10% 5% 25% 5%;
+	background: #e5e5e5;
+}
+.sem .est
+{
+	width: 25%;
+	height: auto;
+	background: #292d33;
+	padding: 3%;
+	color: #FFF;
+	position: absolute;
+	top: 20%;
+	left: 10%;
+}
+.sem h1
+{
+	font-size: 46px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+.exc 
+{
+	width: 50%;
+	height: auto;
+	margin-left: 52%;
+	text-align: justify;
+	margin-top: -54%;
+}
+.exc h1
+{
+	color: #008b8b;
+	font-family: "Open Sans", sans-serif;
+}
+.cha h1
+{
+	color: #008b8b;
+	font-family: "Open Sans", sans-serif;
+}
+.nge h1
+{
+	color: #008b8b;
+	font-family: "Open Sans", sans-serif;
+}
+.exc,.cha,.nge p
+{
+	font-family: "Open Sans", sans-serif;
+	color: #7b7b7b;
+}
+.cha
+{
+	width: 45%;
+	height: auto;
+	margin-top: 5%;
+	text-align: justify;
+}
+.nge
+{
+	width: 45%;
+	height: auto;
+	margin-top: -40%;
+	margin-left: 50%;
+	text-align: justify;
+}
+.footer
+{
+	height: auto;
+	padding: 3%;
+	background: #212020;
+	border-top-right-radius: 25%;
+}
+.footer .touch
+{
+	padding: 5%;
+}
+.touch h1
+{
+	font-size: 23px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff;
+    text-transform: capitalize;
+	font-family: "Open Sans", sans-serif;
+}
+.touch h4
+{
+	font-size: 17px;
+    letter-spacing: 1px;
+    color: #f8f9fa;
+	font-family: "Open Sans", sans-serif;
+    margin-top: 5%;
+}
+.touch p
+{
+	color: #ababab;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 5%;
+}
+.touch p a
+{
+	text-decoration: none;
+	color: #ababab;
+}
+.touch p a:hover
+{
+	color: #fff;
+}
+.quick
+{
+	padding: 5%;
+}
+.quick h2
+{
+	font-size: 23px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff;
+	font-family: "Open Sans", sans-serif;
+}
+.quick ul
+{
+	list-style: none;
+}
+.quick ul li
+{
+	font-size: 16px;
+	margin-top: 4%;
+	margin-left: -10%;
+}
+.quick ul li a
+{
+	text-decoration: none;
+	color: #ababab;
+}
+.quick ul li a:hover
+{
+	color: #fff;
+}
+.plan
+{
+	padding: 5%;
+}
+.plan a
+{
+	font-size: 40px;
+	font-family: "Open Sans", sans-serif;
+}

@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Hind:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+}
+.navbar
+{
+	/*position: fixed;
+	top: 10px;
+	left: 0px;
+	right: 0px;*/
+	/*background: rgba(0 0 0/.5);*/
+	box-sizing: border-box;
+	z-index: 2;
+	background: #008080;
+}
+.navbar-brand
+{
+	color: #fff;
+	font-size: 46px;
+  	font-family: "Open Sans", sans-serif;
+  	font-weight: bold;
+}
+.navbar-brand img
+{
+	width: 100px;
+	height: 100px;
+}
+.navbar-brand:hover
+{
+	color: #fff;
+}
+.nav-item
+{
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	padding-left: 30px;
+}
+.nav-item .nav-link
+{
+	text-decoration: none;
+	color: #f7f1f8;
+}
+.nav-item .active
+{
+	border-bottom: 2px solid #f7f1f8;
+}
+.nav-item .nav-link:hover
+{
+	color: #c6c1c7;
+}
+.face
+{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.face li ion-icon
+{
+	font-size: 16px;
+	color: #fff;
+}
+.face li:first-child
+{
+	background: #3b5998;
+	width: 30px;
+	height: 30px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	cursor: pointer;
+}
+.face li:nth-child(2)
+{
+	background: #55acee;
+	width: 30px;
+	height: 30px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	margin-left: 5px;
+	cursor: pointer;
+}
+.face li:last-child
+{
+	background: #e53935;
+	width: 30px;
+	height: 30px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	margin-left: 5px;
+	cursor: pointer;
+}
+.med
+{
+	width: 100%;
+	height: auto;
+	padding: 20%;
+	background: url(medical.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom-left-radius: 30%;
+}
+.cal 
+{
+	width: 100%;
+	height: auto;
+	padding: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+.faci
+{
+	width: 25%;
+	top: 50%;
+	right: 0;
+	left: 0;
+	height: auto;
+	text-align: center;
+	box-sizing: border-box;
+	box-shadow: 2px 2px 10px rgb(0 128 128/.4);
+	border-radius: 5%;
+	position: relative;
+	padding: 0 0 5% 0;
+}
+.faci ion-icon 
+{
+	width: 100px;
+	height: 100px;
+	color: #008b8b;
+	margin-top: 10%;
+}
+.faci h4
+{
+	color: #000;
+	font-size: 25px;
+	font-family: "Open Sans", sans-serif;
+	margin-top: 5%;
+}
+.lity 
+{
+	width: 100%;
+	height: auto;
+	padding: 1%;
+	background: #008b8b;
+	margin-top: 20%;
+	position: relative;
+	display: none;
+	transition: .4s;
+	border-radius: 5%;
+}
+.lity ion-icon
+{
+	width: 50px;
+	height: 50px;
+	color: #fff;
+	margin-top: 5%;
+}
+.lity h3
+{
+	color: #fff;
+	font-size: 25px;
+	font-family: "Open Sans", sans-serif;
+}
+.lity p
+{
+	font-size: 20px;
+	color: #fff;
+	margin-top: 4%;
+	font-family: "Open Sans", sans-serif;
+}
+.faci:hover
+{
+	padding: 0;
+}
+.faci:hover .lity 
+{
+	display: block;
+	margin-top: -80%;
+}
+.event 
+{
+	width: 100%;
+	height: auto;
+	padding: 5%;
+	background: rgb(0 139 139/.2);
+	display: flex;
+	justify-content: space-between;
+}
+.che
+{
+	width: 48%;
+	height: auto;
+	padding: 5%;
+	background: rgb(0 128 128/.3);
+}
+.che h1
+{
+	font-size: 40px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+}
+.che h3
+{
+	font-size: 25px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+}
+.footer
+{
+	height: auto;
+	padding: 3%;
+	background: #212020;
+	border-top-right-radius: 25%;
+}
+.footer .touch
+{
+	padding: 5%;
+}
+.touch h1
+{
+	font-size: 23px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff;
+    text-transform: capitalize;
+	font-family: "Open Sans", sans-serif;
+}
+.touch h4
+{
+	font-size: 17px;
+    letter-spacing: 1px;
+    color: #f8f9fa;
+	font-family: "Open Sans", sans-serif;
+    margin-top: 5%;
+}
+.touch p
+{
+	color: #ababab;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 5%;
+}
+.touch p a
+{
+	text-decoration: none;
+	color: #ababab;
+}
+.touch p a:hover
+{
+	color: #fff;
+}
+.quick
+{
+	padding: 5%;
+}
+.quick h2
+{
+	font-size: 23px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff;
+	font-family: "Open Sans", sans-serif;
+}
+.quick ul
+{
+	list-style: none;
+}
+.quick ul li
+{
+	font-size: 16px;
+	margin-top: 4%;
+	margin-left: -10%;
+}
+.quick ul li a
+{
+	text-decoration: none;
+	color: #ababab;
+}
+.quick ul li a:hover
+{
+	color: #fff;
+}
+.plan
+{
+	padding: 5%;
+}
+.plan a
+{
+	font-size: 40px;
+	font-family: "Open Sans", sans-serif;
+}
